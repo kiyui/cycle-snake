@@ -1,0 +1,43 @@
+{
+  "name": "cycle-snake",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "cycle-scripts": "1.1.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^17.5.0",
+    "@cycle/run": "^3.1.0",
+    "xstream": "^10.8.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "description": "A snake game implemented in Cycle.js",
+  "main": "npm start",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurKiyivinski/cycle-snake.git"
+  },
+  "author": "Timur Kiyivinski",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TimurKiyivinski/cycle-snake/issues"
+  },
+  "homepage": "https://github.com/TimurKiyivinski/cycle-snake#readme",
+  "keywords": [
+    "game",
+    "snake",
+    "canvas",
+    "cycle",
+    "reactive"
+  ]
+}
